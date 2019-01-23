@@ -931,7 +931,7 @@ for (let i of arr) {
 
 ```javascript
 // entries()
-[...[,'a'].entries()] // [[0,undefined], [1,"a"]]
+[...[,'a'].entries()] // [[0,1], [undefined,"a"]]
 
 // keys()
 [...[,'a'].keys()] // [0,1]
